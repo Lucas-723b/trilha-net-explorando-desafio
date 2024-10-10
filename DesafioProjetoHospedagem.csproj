@@ -1,10 +1,54 @@
-<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>disable</Nullable>
-  </PropertyGroup>
+public class Reserva
 
-</Project>
+public List <Pessoa>  Hospedes{get;set; }
+public suite suite {get;set; }
+public int DiasReservados {get;set; }
+
+public Reserva(){}
+
+public Reserva (int diasReservados)
+{
+Diasreservados = diasreservados;
+}
+
+public void cadastrarhospedes(List<pessoa> hospedes)
+{
+	int.Parse(console.Readline());
+	int.Parse("Capacidade" - "numero de hospedes")
+	console.writeline("Mostrar que ainda tem vagas")
+	
+}
+if (true)
+{
+Hospedes = hospedes;
+}
+else
+{
+	int.Parse("Quartos ocupados" - "numero de hospedes")
+	console.writeline("Mostrar que não tem vagas")
+}
+
+public void Cadastrarsuite(suite suite)
+{
+suite = suite;
+}
+public int Obterquantidadedehospedes()
+{
+	int.Parse(console.Readline());
+	int.Parse("Capacidade de quartos"-"Quartos ocupados")
+	return 0;
+}
+public decimal CalcularValorDiaria()
+{
+	int.parse(console.Readline());
+	int.parse("Dias Reservados" ."Valor Diaria");
+    decimal valor = 0;
+}
+    int.parse(console.Readline());
+    int.parse("Dias Reservados".>=10 ."Valor Diaria"-10%);
+{
+valor = 0;
+}
+return valor;
+
